@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Product Showcase</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="custom.css" />
+    <!-- Custom Color Styles -->
+    <style>
+      /* Custom background colors */
+      .bg-banana-primary {
+        background-color: #ffd700;
+      }
+      .bg-banana-secondary {
+        background-color: #ffc107;
+      }
+      /* Custom text colors */
+      .text-banana-primary {
+        color: #ff6f00;
+      }
+      .text-banana-secondary {
+        color: #ff9800;
+      }
+      /* Custom button style */
+      .btn-banana-secondary {
+        background-color: #ffd700;
+        color: #fff;
+      }
+
+      /* Custom hover effect for the button (optional) */
+      .btn-banana-secondary:hover {
+        background-color: FFD700;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-banana-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Your Farm Name</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-banana-primary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Discover the Flavor of Our Bananas</h1>
+        <p class="lead">
+          Experience the sweet and creamy taste of our premium bananas, freshly
+          picked from our plantation.
+        </p>
+        <a href="#product-details" class="btn btn-lg btn-banana-secondary"
+          >Explore More</a
+        >
+      </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section id="product-details" class="container my-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/Efarm/fruits/Media/banana.png"
+            class="img-fluid rounded"
+            alt="Banana"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="text-banana-primary">Premium Bananas</h2>
+          <p class="lead">
+            Indulge in the delightful taste and creaminess of our fresh and ripe
+            bananas.
+          </p>
+          <hr />
+          <h3>Product Details</h3>
+          <ul class="list-unstyled">
+            <li><strong>Variety:</strong> Standard</li>
+            <li><strong>Size:</strong> Medium</li>
+            <li><strong>Price:</strong> $1 each</li>
+            <li><strong>Availability:</strong> Year-round</li>
+          </ul>
+          <a href="#" class="btn btn-banana-secondary btn-lg">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-banana-secondary py-5">
+      <div class="container">
+        <h2 class="text-center text-banana-primary mb-4">
+          What Our Customers Say
+        </h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial text-center">
+              <div class="avatar mb-3">
+                <img
+                  src="customer1.jpg"
+                  class="img-fluid rounded-circle"
+                  alt="Customer 1"
+                />
+              </div>
+              <p class="lead">
+                "The bananas from Your Farm are simply fantastic. They are
+                incredibly sweet and fresh."
+              </p>
+              <h5>John Doe</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial text-center">
+              <div class="avatar mb-3">
+                <img
+                  src="customer2.jpg"
+                  class="img-fluid rounded-circle"
+                  alt="Customer 2"
+                />
+              </div>
+              <p class="lead">
+                "Your bananas have become a staple in my daily diet. They are
+                the best I've had!"
+              </p>
+              <h5>Jane Smith</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial text-center">
+              <div class="avatar mb-3">
+                <img
+                  src="customer3.jpg"
+                  class="img-fluid rounded-circle"
+                  alt="Customer 3"
+                />
+              </div>
+              <p class="lead">
+                "I can't get enough of Your Farm's bananas. They are
+                consistently top-notch."
+              </p>
+              <h5>Mary Johnson</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-banana-primary text-white text-center py-3">
+      &copy; 2023 Your Farm Name
+    </footer>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

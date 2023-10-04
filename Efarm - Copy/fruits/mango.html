@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mango Product Showcase</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="custom.css" />
+    <!-- Google Fonts (Open Sans and Pacifico) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container">
+        <a class="navbar-brand" href="#">Your Farm Name</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-success text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Discover the Taste of Our Mangoes</h1>
+        <p class="lead">
+          Handpicked, juicy, and full of flavor - the perfect mango experience
+          awaits you.
+        </p>
+        <a href="#product-details" class="btn btn-lg btn-warning"
+          >Explore More</a
+        >
+      </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section id="product-details" class="container my-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="/Efarm/fruits/Media/mango.png"
+            class="img-fluid rounded"
+            alt="Mango"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="text-success">Premium Alphonso Mangoes</h2>
+          <p class="lead">
+            Indulge in the rich and exotic flavor of Alphonso mangoes, renowned
+            for their sweetness and fragrance.
+          </p>
+          <hr />
+          <h3>Product Details</h3>
+          <ul class="list-unstyled">
+            <li><strong>Variety:</strong> Alphonso</li>
+            <li><strong>Size:</strong> Large</li>
+            <li><strong>Price:</strong> $10 per dozen</li>
+            <li><strong>Availability:</strong> In Season (May - July)</li>
+          </ul>
+          <a href="#" class="btn btn-success btn-lg">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">What Our Customers Say</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial text-center">
+              <div class="avatar mb-3">
+                <img
+                  src="customer1.jpg"
+                  class="img-fluid rounded-circle"
+                  alt="Customer 1"
+                />
+              </div>
+              <p class="lead">
+                "The mangoes from Your Farm are simply the best. I can't get
+                enough of their sweet taste!"
+              </p>
+              <h5>John Doe</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial text-center">
+              <div class="avatar mb-3">
+                <img
+                  src="customer2.jpg"
+                  class="img-fluid rounded-circle"
+                  alt="Customer 2"
+                />
+              </div>
+              <p class="lead">
+                "I've tried mangoes from various places, but nothing beats the
+                quality and flavor of Your Farm's mangoes."
+              </p>
+              <h5>Jane Smith</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial text-center">
+              <div class="avatar mb-3">
+                <img
+                  src="customer3.jpg"
+                  class="img-fluid rounded-circle"
+                  alt="Customer 3"
+                />
+              </div>
+              <p class="lead">
+                "The mangoes arrived fresh and perfectly ripe. I'm a happy
+                customer and will order again."
+              </p>
+              <h5>Mary Johnson</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      &copy; 2023 Your Farm Name
+    </footer>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
