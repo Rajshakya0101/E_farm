@@ -190,7 +190,13 @@ if(isset($_POST['submit'])){
                 <option value="Colored Wool">Colored Wool</option>
               </select>
         </p>
-        <br>
+        <!-- Image Upload Field -->
+        <p>
+                <label class="w3-text-grey">Upload Sheep Image</label>
+                <input class="w3-input w3-border" type="file" accept="image/*">
+            </p>
+
+            <p><button type="button" class="w3-btn w3-padding w3-teal" style="width:120px">Save &nbsp; ❯</button></p>
 
         <div class="forms" style="border-radius: 5px">
        
