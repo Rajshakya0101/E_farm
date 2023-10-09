@@ -167,7 +167,13 @@ if(isset($_POST['submit'])){
             <label class="w3-text-grey">Food</label>
             <input class="w3-input w3-border" name="food" id="Food" type="text" style="border-radius: 5px" required="">
         </p>
-        <br>
+       <!-- Image Upload Field -->
+       <p>
+                <label class="w3-text-grey">Upload Pig Image</label>
+                <input class="w3-input w3-border" type="file" accept="image/*">
+            </p>
+
+            <p><button type="button" class="w3-btn w3-padding w3-teal" style="width:120px">Save &nbsp; ❯</button></p>
 
         <div class="forms" style="border-radius: 5px">
        
